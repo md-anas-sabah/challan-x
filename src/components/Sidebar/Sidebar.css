@@ -1,0 +1,31 @@
+.sidebar {
+  display: flex;
+  flex: 24;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(46, 44, 44);
+  min-height: 89vh;
+  box-shadow: 1px 1px 1px black;
+}
+.sidebar > a {
+  color: white;
+  font-family: "Roboto Condensed";
+  /* margin-top: 20px; */
+  font-size: 25px;
+  width: 30rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar > a > p:hover {
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}

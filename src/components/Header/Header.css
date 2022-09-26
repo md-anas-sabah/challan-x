@@ -1,0 +1,67 @@
+.nav {
+  min-height: 6rem;
+  background-color: rgb(46, 44, 44);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 0 black
+}
+.nav-left {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-left > h1 {
+  font-family: "libre";
+  letter-spacing: 1px;
+  color: white;
+  font-size: 28px;
+}
+.nav-left > span {
+  margin-left: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.nav-left > h2 {
+  font-family: "Bebas Neue";
+  margin-left: 15px;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1px;
+}
+.nav-left > h2 > span {
+  color: rgb(255, 19, 19);
+}
+.nav-right {
+  margin-right: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+.nav-right > a > button {
+  height: 3rem;
+  width: 8rem;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: red;
+  border: none;
+}
+.nav-right > a > button:hover {
+  background-color: gray;
+}
+.user-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.user-info > p {
+  font-size: 15px;
+  color: white;
+  font-family: "Roboto";
+}
